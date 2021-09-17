@@ -1,12 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello cars4sSale</h1>
-</body>
-</html>
+<%- include("partials/header") %> 
+    <h1>Hello cars4Sale</h1>
+    <section id="all-cars-container">
+        <% carsData.forEach((car)=>{ %>
+             <a href="cars4sale/<%= car.id %> ">
+            <div class="sale-tab">
+             <img id="post-img" src= <%= car.img  %> alt="car for sale image" >
+                 <h3><%=car.year %> <%= car.make %> <%= car.model %> <%= car.type %>  <%= car.transmission %>    </h3>
+                 <p>$<%= car.price %> <%= car.location %> </p> 
+                <P><%= car.phone %>  <%= car.email %>  </P>
+         
+             </div>
+                    </a>
+         <% }) %> 
+          </section>
+    <%- include("partials/footer") %> 

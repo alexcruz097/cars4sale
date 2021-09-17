@@ -1,0 +1,97 @@
+[
+    {
+        "make": "Lexus",
+        "model": "IS 250",
+        "year": "2007",
+        "trim": "RWD",
+        "type": "sedan",
+        "transmission": "automatic",
+        "location": "Gardana, CA",
+        "phone": "747-255-9610",
+        "email": "alexc017@yahoo.com",
+        "price": 10000,
+        "mileage": 1000,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-acura-nsx-9-1560437744.jpg?crop=0.700xw:0.788xh;0.0497xw,0.130xh&resize=640:*"
+    },
+     {
+        "make": "Lexus",
+        "model": "IS 250",
+        "year": "2007",
+        "trim": "RWD",
+        "type": "sedan",
+        "transmission": "automatic",
+        "location": "Gardana, CA",
+        "phone": "747-255-9610",
+        "email": "alexc017@yahoo.com",
+        "price": 10000,
+        "mileage": 1000,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-acura-nsx-9-1560437744.jpg?crop=0.700xw:0.788xh;0.0497xw,0.130xh&resize=640:*"
+    },
+     {
+        "make": "Lexus",
+        "model": "IS 250",
+        "year": "2007",
+        "trim": "RWD",
+        "type": "sedan",
+        "transmission": "automatic",
+        "location": "Gardana, CA",
+        "phone": "747-255-9610",
+        "email": "alexc017@yahoo.com",
+        "price": 10000,
+        "mileage": 1000,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-acura-nsx-9-1560437744.jpg?crop=0.700xw:0.788xh;0.0497xw,0.130xh&resize=640:*"
+    }, {
+        "make": "Lexus",
+        "model": "IS 250",
+        "year": "2007",
+        "trim": "RWD",
+        "type": "sedan",
+        "transmission": "automatic",
+        "location": "Gardana, CA",
+        "phone": "747-255-9610",
+        "email": "alexc017@yahoo.com",
+        "price": 10000,
+        "mileage": 1000,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-acura-nsx-9-1560437744.jpg?crop=0.700xw:0.788xh;0.0497xw,0.130xh&resize=640:*"
+    }
+    , {
+        "make": "Lexus",
+        "model": "IS 250",
+        "year": "2007",
+        "trim": "RWD",
+        "type": "sedan",
+        "transmission": "automatic",
+        "location": "Gardana, CA",
+        "phone": "747-255-9610",
+        "email": "alexc017@yahoo.com",
+        "price": 10000,
+        "mileage": 1000,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-acura-nsx-9-1560437744.jpg?crop=0.700xw:0.788xh;0.0497xw,0.130xh&resize=640:*"
+    }, {
+        "make": "Lexus",
+        "model": "IS 250",
+        "year": "2007",
+        "trim": "RWD",
+        "type": "sedan",
+        "transmission": "automatic",
+        "location": "Gardana, CA",
+        "phone": "747-255-9610",
+        "email": "alexc017@yahoo.com",
+        "price": 10000,
+        "mileage": 1000,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-acura-nsx-9-1560437744.jpg?crop=0.700xw:0.788xh;0.0497xw,0.130xh&resize=640:*"
+    }, {
+        "make": "Lexus",
+        "model": "IS 250",
+        "year": "2009",
+        "trim": "RWD",
+        "type": "sedan",
+        "transmission": "automatic",
+        "location": "Gardana, CA",
+        "phone": "747-255-9610",
+        "email": "alexc017@yahoo.com",
+        "price": 10000,
+        "mileage": 1000,
+        "img":  "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-acura-nsx-9-1560437744.jpg?crop=0.700xw:0.788xh;0.0497xw,0.130xh&resize=640:*"
+    }
+]
