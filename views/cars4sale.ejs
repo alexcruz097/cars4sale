@@ -1,16 +1,22 @@
-<%- include("partials/header") %> 
-    <h1>Hello cars4Sale</h1>
-    <section id="all-cars-container">
-        <% carsData.forEach((car)=>{ %>
-             <a href="cars4sale/<%= car.id %> ">
-            <div class="sale-tab">
-             <img id="post-img" src= <%= car.img  %> alt="car for sale image" >
-                 <h3><%=car.year %> <%= car.make %> <%= car.model %> <%= car.type %>  <%= car.transmission %>    </h3>
-                 <p>$<%= car.price %> <%= car.location %> </p> 
-                <P><%= car.phone %>  <%= car.email %>  </P>
-         
-             </div>
-                    </a>
-         <% }) %> 
-          </section>
-    <%- include("partials/footer") %> 
+<%- include("partials/header") %>
+<h1>Hello cars4Sale</h1>
+<section id="all-cars-container">
+  <% carsData.forEach((car)=>{ %>
+  <a href="cars4sale/<%= car.id %>">
+    <div class="sale-tab">
+      <img id="post-img" src=<%= car.img %> alt="car for sale image" >
+      <h3>
+        <%=car.year %> <%= car.make %> <%= car.model %> <%= car.type %> <%=
+        car.transmission %>
+      </h3>
+      <p>$<%= car.price %> <%= car.location %></p>
+      <P> <%= car.phone %> <%= car.email %> </P>
+    <a href="/cars4sale/<%= car.id %>/edit?_method=PATCH ">Edit Post</a>
+    <form action="/cars4sale/<%= car.id  %>?_method=DELETE" method="post">
+    <button>delete</button>
+    </form>
+    </div>
+  </a>
+  <% }) %>
+</section>
+<%- include("partials/footer") %>

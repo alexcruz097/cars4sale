@@ -1,0 +1,58 @@
+<%- include("partials/header") %> 
+
+
+    <form action="/cars4sale/<%= id %>/edit?_method=PATCH" method="POST" enctype="multipart/form-data" >
+        <h1>Edit your information</h1>
+        <section id="your-information">
+         
+            <label for="email">Mail</label>
+            <input type="email" name="email" placeholder="youremail@yahoo.com" id=""   required>
+            <br>
+            <label for="phone">Phone</label>
+          <input type="tel" name="phone" placeholder="818-123-4567" id=""  required>
+          <br>
+          <label for="location">Location</label>
+          <input type="text" name="location" id="" placeholder="Los Angeles,CA"  required>
+        </section>
+        <br>
+        <h1>Edit your Vehicle Information</h1>
+        <section id="your-car-information">
+            <label for=image">Upload image</label>
+               <input type="file" name="image" id=""   accept="image/*" required>
+            <input type="image" src="" alt="" >    <label for="make" require>Make</label>
+            <input type="text" placeholder="Toyota/Ford" name="make" id="make"  required>
+            <br>
+            <label for="model">Model</label>
+            <input type="text" placeholder="CAMRY/F-150" name="model" id="model"  required>
+            <br>
+            <label for="year">Year</label>
+            <input type="text" name="year" placeholder="2010" id=""   required>
+            <br>
+            <label for="trim">Trim</label>
+            <select name="trim" id=""  required>
+                <option value="RWD">RWD</option>
+                <option value="AWD">AWD</option>
+            </select>
+
+            <br>
+            <label for="transmission">Transmission</label>
+            <select name="transmission" id=""  required>
+                <option value="automatic">Automatic</option>
+                <option value="manual">Manual</option>
+            </select>
+
+            <br>
+            <label for="type">Vehicle Type</label>
+            <select name="type" id="">
+                <option value="sedan">Sedan</option>
+                <option value="truck">Truck</option>
+            </select>
+            <br>
+            <label for="millage">Millage</label>
+            <input type="number" name="millage" placeholder="100,000" id=""  required>
+            <br>
+            <label for="price">Asking Price</label>
+            <input type="number" name="price" placeholder="$20,000" id=""  required>
+            <button type="submit">Submit</button>
+        </section>
+<%- include("partials/footer") %> 
